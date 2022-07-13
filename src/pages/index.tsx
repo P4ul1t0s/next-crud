@@ -1,9 +1,11 @@
-import styles from '../styles/Home.module.css'
+import Layout from '../components/Layout'
 
 export default function Home() {
-  return (
-    <div className={"flex h-screen justify-center items-center bg-gradient-to-r from-purple-500 via-yellow-500 to-blue-600"}>
-      <span className="text-4xl">Texto</span>
-    </div>
-  )
+    return (
+        <div className="flex h-screen justify-center items-center bg-gradient-to-r from-blue-400 to-purple-600 text-white">
+            <Layout titulo="Cadastro Simples">
+                <span>Conteúdo</span>
+            </Layout>
+        </div>
+    )
 }
