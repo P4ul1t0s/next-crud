@@ -23,7 +23,7 @@ export default function Formulario(props: FormularioProps){
             <Entrada texto="Idade" valor={idade} tipo={"number"} valorMudou={setIdade}/>
             <div className="flex justify-end mt-7">
                 <Botao cor="blue" classname="mr-4">{id ? 'Alterar' : 'Salvar'}</Botao>
-                <Botao cor="gray">Cancelar</Botao>
+                <Botao cor="red">Cancelar</Botao>
             </div>
         </div>
     )
